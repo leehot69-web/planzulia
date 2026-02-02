@@ -4,6 +4,7 @@ import { Plans } from './components/Plans';
 import { Benefits } from './components/Benefits';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Plans />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
